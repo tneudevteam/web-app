@@ -18,7 +18,7 @@ class MainLayout extends Component {
           <Navigation>
             <Link to="/news"><IconButton name="list"/>&nbsp;Новини</Link>
             <Link to="/map"><IconButton name="map"/>&nbsp;Карта</Link>
-            <Link to=""><IconButton name="filter_5"/>&nbsp;Оцінки</Link>
+            <a href="http://modulok.ml/" target="_blank"><IconButton name="filter_5"/>&nbsp;Оцінки</a>
             <Link to=""><IconButton name="settings_overscan"/>&nbsp;Сканер QR кодів</Link>
           </Navigation>
         </Drawer>
