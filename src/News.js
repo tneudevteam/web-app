@@ -49,7 +49,7 @@ class News extends Component {
             return (
               <Cell key={index} col={6} tablet={12}>
                 <Card shadow={0}
-                      style={{width: '100%'}}>
+                      style={{width: '100%', height: '320px'}}>
                   <CardTitle style={{
                     color: '#fff',
                     height: '176px',
