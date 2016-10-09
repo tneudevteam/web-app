@@ -7,12 +7,9 @@ import {
   Navigation,
   Content
 } from 'react-mdl'
-import 'whatwg-fetch';
-import './App.css';
-import News from './News';
 import {Link} from 'react-router';
 
-class App extends Component {
+class MainLayout extends Component {
   render() {
     return (
       <Layout fixedHeader fixedDrawer>
@@ -26,11 +23,11 @@ class App extends Component {
           </Navigation>
         </Drawer>
         <Content>
-          <News/>
+          {this.props.children}
         </Content>
       </Layout>
     );
   }
 }
 
-export default App;
+export default MainLayout;
