@@ -23,8 +23,8 @@ class MainLayout extends Component {
               name="map"/>&nbsp;Карта</Link>
             <a href="http://modulok.ml/" target="_blank"><IconButton
               name="filter_5"/>&nbsp;Оцінки</a>
-            <Link to="" activeClassName="active"><IconButton
-              name="settings_overscan"/>&nbsp;Сканер QR кодів</Link>
+            <Link to="qr" activeClassName="active"><IconButton
+              name="settings_overscan"/>&nbsp;QR сканер</Link>
           </Navigation>
         </Drawer>
         <Content>
